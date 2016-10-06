@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3536190E1DA63FA000049DEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3536190D1DA63FA000049DEC /* main.m */; };
+		353619111DA63FA000049DEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 353619101DA63FA000049DEC /* AppDelegate.m */; };
+		353619141DA63FA000049DEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353619131DA63FA000049DEC /* ViewController.m */; };
+		353619171DA63FA000049DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353619151DA63FA000049DEC /* Main.storyboard */; };
+		3536191A1DA63FA000049DEC /* BeTwo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 353619181DA63FA000049DEC /* BeTwo.xcdatamodeld */; };
+		3536191C1DA63FA000049DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3536191B1DA63FA000049DEC /* Assets.xcassets */; };
+		3536191F1DA63FA100049DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3536191D1DA63FA100049DEC /* LaunchScreen.storyboard */; };
+		3536192A1DA63FA100049DEC /* BeTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 353619291DA63FA100049DEC /* BeTwoTests.m */; };
+		353619351DA63FA100049DEC /* BeTwoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 353619341DA63FA100049DEC /* BeTwoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		353619261DA63FA100049DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 353619011DA63FA000049DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353619081DA63FA000049DEC;
+			remoteInfo = BeTwo;
+		};
+		353619311DA63FA100049DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 353619011DA63FA000049DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353619081DA63FA000049DEC;
+			remoteInfo = BeTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		353619091DA63FA000049DEC /* BeTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3536190D1DA63FA000049DEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3536190F1DA63FA000049DEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		353619101DA63FA000049DEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		353619121DA63FA000049DEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		353619131DA63FA000049DEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		353619161DA63FA000049DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		353619191DA63FA000049DEC /* BeTwo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeTwo.xcdatamodel; sourceTree = "<group>"; };
+		3536191B1DA63FA000049DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3536191E1DA63FA100049DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		353619201DA63FA100049DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353619251DA63FA100049DEC /* BeTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		353619291DA63FA100049DEC /* BeTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeTwoTests.m; sourceTree = "<group>"; };
+		3536192B1DA63FA100049DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353619301DA63FA100049DEC /* BeTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		353619341DA63FA100049DEC /* BeTwoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeTwoUITests.m; sourceTree = "<group>"; };
+		353619361DA63FA100049DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		353619061DA63FA000049DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353619221DA63FA100049DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3536192D1DA63FA100049DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353619001DA63FA000049DEC = {
+			isa = PBXGroup;
+			children = (
+				3536190B1DA63FA000049DEC /* BeTwo */,
+				353619281DA63FA100049DEC /* BeTwoTests */,
+				353619331DA63FA100049DEC /* BeTwoUITests */,
+				3536190A1DA63FA000049DEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3536190A1DA63FA000049DEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				353619091DA63FA000049DEC /* BeTwo.app */,
+				353619251DA63FA100049DEC /* BeTwoTests.xctest */,
+				353619301DA63FA100049DEC /* BeTwoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3536190B1DA63FA000049DEC /* BeTwo */ = {
+			isa = PBXGroup;
+			children = (
+				3536190F1DA63FA000049DEC /* AppDelegate.h */,
+				353619101DA63FA000049DEC /* AppDelegate.m */,
+				353619121DA63FA000049DEC /* ViewController.h */,
+				353619131DA63FA000049DEC /* ViewController.m */,
+				353619151DA63FA000049DEC /* Main.storyboard */,
+				3536191B1DA63FA000049DEC /* Assets.xcassets */,
+				3536191D1DA63FA100049DEC /* LaunchScreen.storyboard */,
+				353619201DA63FA100049DEC /* Info.plist */,
+				353619181DA63FA000049DEC /* BeTwo.xcdatamodeld */,
+				3536190C1DA63FA000049DEC /* Supporting Files */,
+			);
+			path = BeTwo;
+			sourceTree = "<group>";
+		};
+		3536190C1DA63FA000049DEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3536190D1DA63FA000049DEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		353619281DA63FA100049DEC /* BeTwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				353619291DA63FA100049DEC /* BeTwoTests.m */,
+				3536192B1DA63FA100049DEC /* Info.plist */,
+			);
+			path = BeTwoTests;
+			sourceTree = "<group>";
+		};
+		353619331DA63FA100049DEC /* BeTwoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				353619341DA63FA100049DEC /* BeTwoUITests.m */,
+				353619361DA63FA100049DEC /* Info.plist */,
+			);
+			path = BeTwoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		353619081DA63FA000049DEC /* BeTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353619391DA63FA100049DEC /* Build configuration list for PBXNativeTarget "BeTwo" */;
+			buildPhases = (
+				353619051DA63FA000049DEC /* Sources */,
+				353619061DA63FA000049DEC /* Frameworks */,
+				353619071DA63FA000049DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeTwo;
+			productName = BeTwo;
+			productReference = 353619091DA63FA000049DEC /* BeTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		353619241DA63FA100049DEC /* BeTwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3536193C1DA63FA100049DEC /* Build configuration list for PBXNativeTarget "BeTwoTests" */;
+			buildPhases = (
+				353619211DA63FA100049DEC /* Sources */,
+				353619221DA63FA100049DEC /* Frameworks */,
+				353619231DA63FA100049DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353619271DA63FA100049DEC /* PBXTargetDependency */,
+			);
+			name = BeTwoTests;
+			productName = BeTwoTests;
+			productReference = 353619251DA63FA100049DEC /* BeTwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3536192F1DA63FA100049DEC /* BeTwoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3536193F1DA63FA100049DEC /* Build configuration list for PBXNativeTarget "BeTwoUITests" */;
+			buildPhases = (
+				3536192C1DA63FA100049DEC /* Sources */,
+				3536192D1DA63FA100049DEC /* Frameworks */,
+				3536192E1DA63FA100049DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353619321DA63FA100049DEC /* PBXTargetDependency */,
+			);
+			name = BeTwoUITests;
+			productName = BeTwoUITests;
+			productReference = 353619301DA63FA100049DEC /* BeTwoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		353619011DA63FA000049DEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = phliny;
+				TargetAttributes = {
+					353619081DA63FA000049DEC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					353619241DA63FA100049DEC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 353619081DA63FA000049DEC;
+					};
+					3536192F1DA63FA100049DEC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 353619081DA63FA000049DEC;
+					};
+				};
+			};
+			buildConfigurationList = 353619041DA63FA000049DEC /* Build configuration list for PBXProject "BeTwo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 353619001DA63FA000049DEC;
+			productRefGroup = 3536190A1DA63FA000049DEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				353619081DA63FA000049DEC /* BeTwo */,
+				353619241DA63FA100049DEC /* BeTwoTests */,
+				3536192F1DA63FA100049DEC /* BeTwoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		353619071DA63FA000049DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3536191F1DA63FA100049DEC /* LaunchScreen.storyboard in Resources */,
+				3536191C1DA63FA000049DEC /* Assets.xcassets in Resources */,
+				353619171DA63FA000049DEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353619231DA63FA100049DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3536192E1DA63FA100049DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		353619051DA63FA000049DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353619141DA63FA000049DEC /* ViewController.m in Sources */,
+				353619111DA63FA000049DEC /* AppDelegate.m in Sources */,
+				3536190E1DA63FA000049DEC /* main.m in Sources */,
+				3536191A1DA63FA000049DEC /* BeTwo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353619211DA63FA100049DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3536192A1DA63FA100049DEC /* BeTwoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3536192C1DA63FA100049DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353619351DA63FA100049DEC /* BeTwoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		353619271DA63FA100049DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353619081DA63FA000049DEC /* BeTwo */;
+			targetProxy = 353619261DA63FA100049DEC /* PBXContainerItemProxy */;
+		};
+		353619321DA63FA100049DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353619081DA63FA000049DEC /* BeTwo */;
+			targetProxy = 353619311DA63FA100049DEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		353619151DA63FA000049DEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				353619161DA63FA000049DEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3536191D1DA63FA100049DEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3536191E1DA63FA100049DEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		353619371DA63FA100049DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		353619381DA63FA100049DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3536193A1DA63FA100049DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phliny.BeTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3536193B1DA63FA100049DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phliny.BeTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3536193D1DA63FA100049DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phliny.BeTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeTwo.app/BeTwo";
+			};
+			name = Debug;
+		};
+		3536193E1DA63FA100049DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phliny.BeTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeTwo.app/BeTwo";
+			};
+			name = Release;
+		};
+		353619401DA63FA100049DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phliny.BeTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeTwo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		353619411DA63FA100049DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phliny.BeTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeTwo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		353619041DA63FA000049DEC /* Build configuration list for PBXProject "BeTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353619371DA63FA100049DEC /* Debug */,
+				353619381DA63FA100049DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353619391DA63FA100049DEC /* Build configuration list for PBXNativeTarget "BeTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3536193A1DA63FA100049DEC /* Debug */,
+				3536193B1DA63FA100049DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3536193C1DA63FA100049DEC /* Build configuration list for PBXNativeTarget "BeTwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3536193D1DA63FA100049DEC /* Debug */,
+				3536193E1DA63FA100049DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3536193F1DA63FA100049DEC /* Build configuration list for PBXNativeTarget "BeTwoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353619401DA63FA100049DEC /* Debug */,
+				353619411DA63FA100049DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		353619181DA63FA000049DEC /* BeTwo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				353619191DA63FA000049DEC /* BeTwo.xcdatamodel */,
+			);
+			currentVersion = 353619191DA63FA000049DEC /* BeTwo.xcdatamodel */;
+			path = BeTwo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 353619011DA63FA000049DEC /* Project object */;
+}
